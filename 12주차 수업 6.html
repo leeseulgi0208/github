@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercise 6</title>
+    </head>
+    <body>
+        <h3>Exercise 6</h3>
+        <script>
+            var now =new Date();
+            document.write("current time: "+now.toUTCString()+"<br><hr>");
+            document.write(now.getFullYear()+" / ");
+            document.write(now.getMonth()+" / ");
+            document.write(now.getDate()+"<br>");
+            document.write(now.getHours()+" : ");
+            document.write(now.getMinutes()+"<br><hr>");
+            var birth = new Date(2001, 11, 25);
+            document.write("birth.toLocalDateString() : "+birth.toLocaleDateString());
+        </script>
+    </body>
+</html>
